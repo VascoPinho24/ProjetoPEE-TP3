@@ -1,0 +1,32 @@
+{
+    "id":"192903810",
+    "rules":[
+        {
+            "parameter":"temperature",
+            "type":"higher",
+            "value":"32",
+            "action":{
+                "id":"110230293",
+                "message":"ON"
+            }
+        },
+        {
+            "parameter":"pressure",
+            "type":"equal",
+            "value":"1",
+            "action":{
+                "id":"110233212",
+                "message":"OFF"
+            }
+        },
+        {
+            "parameter":"humidity",
+            "type":"lower",
+            "value":"50",
+            "action":{
+                "id":"634233212",
+                "message":"ON"
+            }
+        }
+    ]
+}
